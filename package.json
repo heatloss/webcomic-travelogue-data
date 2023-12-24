@@ -1,0 +1,28 @@
+{
+  "name": "yale-lowdb-crud-example",
+  "version": "0.1.0",
+  "description": "Sample project for socket.io interactivity",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "lowdb": "^6.1.1",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/yale-lowdb-crud-example"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
