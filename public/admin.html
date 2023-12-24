@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/css/html5reset.css" />
+    <link rel="stylesheet" href="/css/tacit.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+  </head>
+  <body id="admin">
+    <main>
+      <header><h1>Webcomic Travelogue: System data</h1></header>
+      <div id="comicarea" class="area">
+        <h3>Comics</h3>
+        <ul class="comiclist"></ul>
+      </div>
+      <section id="formarea" class="area">
+        <form id="comicEditor" method="post" action="/post">
+          <div id="selectedComicLoadTarget">
+            <h2>Edit comic data:</h2>
+            <p>Click on a comic’s name to load its metadata.</p>
+            <p>Drag and drop tags to make changes.</p>
+          </div>
+          <button id="comicEntrySubmit" class="submit" disabled="true">
+            No changes
+          </button>
+        </form>
+      </section>
+    </main>
+    <script src="/js/adminops.js" type="module"></script>
+  </body>
+</html>
